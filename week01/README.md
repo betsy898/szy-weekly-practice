@@ -1,6 +1,4 @@
-# 实践二：数据读取与绘图
-
-本目录使用 scikit-learn 自带的 `diabetes` 回归练习数据集完成第一周实践二。数据由 `load_diabetes(as_frame=True, scaled=False)` 在运行时加载，不需要下载外部文件；`scaled=False` 表示使用原始特征。
+本目录使用 scikit-learn 自带的 `diabetes` 回归练习数据集完成第一周实践。数据由 `load_diabetes(as_frame=True, scaled=False)` 在运行时加载，不需要下载外部文件；`scaled=False` 表示使用原始特征。
 
 ## 文件说明
 
