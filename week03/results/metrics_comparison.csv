@@ -1,0 +1,15 @@
+﻿model,split,MAE,RMSE,MSE
+Mean baseline,train,64.656518,77.330772,5980.048359
+Single-feature LinearRegression (bmi),train,50.952191,61.447175,3775.755357
+Multi-feature LinearRegression,train,44.287357,54.284930,2946.853593
+Ridge alpha=1,train,44.302752,54.296591,2948.119847
+Ridge alpha=100,train,45.744727,55.440133,3073.608402
+Mean baseline,validation,67.516166,76.161364,5800.553314
+Single-feature LinearRegression (bmi),validation,49.205122,60.833069,3700.662228
+Multi-feature LinearRegression,validation,38.221274,49.149692,2415.692270
+Ridge alpha=1,validation,38.293932,49.203254,2420.960209
+Ridge alpha=100,validation,40.503444,50.814869,2582.150879
+Mean baseline,test,66.728853,76.905701,5914.486897
+Single-feature LinearRegression (bmi),test,55.210657,67.044044,4494.903775
+Multi-feature LinearRegression,test,46.724017,56.970268,3245.611401
+Selected Ridge alpha=1,test,46.794066,57.083445,3258.519744
