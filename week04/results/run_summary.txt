@@ -1,0 +1,10 @@
+Week 04: PCA regression and K-means clustering
+====================================================
+Data: sklearn load_diabetes(as_frame=True, scaled=False), 10 input features and target.
+Fixed split seed=42: train=265, validation=88, test=89.
+StandardScaler and all PCA models were fitted on the training features only.
+PCA settings: svd_solver='full', whiten=False; reconstruction MSE is in standardized feature space.
+SELECTED PCA COMPONENTS (by validation RMSE only): 5
+The test set was not used to choose the number of components.
+K-means settings: K=(2, 3), random_state=42, n_init=10; fitted on 10D standardized training features.
+Cluster plot uses PCA(2) only to display the 10D K-means assignments and projected centers.

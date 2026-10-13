@@ -1,0 +1,5 @@
+﻿model,pca_components,selected_pca_configuration,train_MAE,train_RMSE,validation_MAE,validation_RMSE,test_MAE,test_RMSE
+Mean baseline,,False,64.656518,77.330772,67.516166,76.161364,66.728853,76.905701
+LinearRegression (10 standardized features),,False,44.287357,54.284930,38.221274,49.149692,46.724017,56.970268
+PCA + LinearRegression,2.000000,False,52.198275,62.806784,50.615134,61.518912,,
+PCA + LinearRegression,5.000000,True,45.725315,55.844209,38.989106,48.991682,46.902266,58.208080
