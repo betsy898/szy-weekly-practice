@@ -1,0 +1,12 @@
+Single-feature diabetes regression experiment
+=============================================
+Data: sklearn load_diabetes(as_frame=True, scaled=False); feature: bmi; target: target.
+Fixed random seed: 42. Split sizes: train=265, validation=88, test=89.
+StandardScaler fitted on train bmi only: mean=26.611321, scale=4.441573.
+Mean baseline value (calculated from y_train only): 151.026415.
+Selected GD setting by validation RMSE: learning_rate=0.1.
+The test set was not used to select the learning rate.
+
+Files saved in results: split_info.csv, train_validation_metrics.csv, test_metrics.csv,
+parameter_comparison.csv, test_prediction_examples.csv, loss_curves_learning_rates.png,
+and test_predictions_scatter.png.

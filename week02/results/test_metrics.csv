@@ -1,0 +1,4 @@
+﻿model,split,MAE,RMSE,MSE
+Mean baseline,test,66.728853,76.905701,5914.486897
+Selected GD lr=0.1,test,55.210657,67.044044,4494.903775
+LinearRegression,test,55.210657,67.044044,4494.903775
