@@ -1,3 +1,5 @@
+# 第二周任务：线性回归与Github使用
+
 本练习使用 scikit-learn 自带的 diabetes 回归练习数据集，采用 `load_diabetes(as_frame=True, scaled=False)` 保留原始特征。只使用一个特征 `bmi` 拟合线性关系 `预测值 = w × x + b`，不把样本行号当作时间，也不训练多特征模型。
 
 ## 文件说明
