@@ -1,0 +1,9 @@
+{
+  "model": "lstm_h32",
+  "hidden_size": 32,
+  "best_epoch": 39,
+  "ot_train_mean": 17.1282616982271,
+  "ot_train_std_ddof0": 9.176491024944335,
+  "window_size": 24,
+  "seed": 42
+}
